@@ -1,0 +1,138 @@
+.css-1ptx2yq-MuiInputBase-root-MuiInput-root:before {
+  border-bottom: none !important;
+}
+
+.css-1ptx2yq-MuiInputBase-root-MuiInput-root:after {
+  border-bottom: 2px solid #ffffff !important;
+}
+
+.css-r6ewbb-MuiToolbar-root {
+  justify-content: space-between;
+}
+
+.css-1orzy9s {
+  background-color: white !important;
+}
+
+
+.css-mir1i6-MuiInputBase-root .MuiInputBase-input {
+  color: #000000;
+}
+
+.css-1g12qau-MuiSvgIcon-root-MuiNativeSelect-icon {
+  color: white !important;
+}
+
+.css-19ygod6-MuiNativeSelect-select-MuiInputBase-input-MuiInput-input {
+  color: white !important;
+  opacity: 70%;
+}
+
+.css-19ygod6-MuiNativeSelect-select-MuiInputBase-input-MuiInput-input:not([multiple]) option,
+.css-19ygod6-MuiNativeSelect-select-MuiInputBase-input-MuiInput-input:not([multiple]) optgroup {
+  background-color: #000000 !important;
+}
+.input_placeholder{
+  color: #000000 !important;
+}
+.search_icon{
+  color: #000000 !important;
+  opacity: 50% !important;
+
+}
+
+.menuicon-three-line {
+  color: white;
+  opacity: 100%;
+}
+
+.css-1sszw6i-MuiButtonBase-root-MuiButton-root {
+  text-transform: none !important;
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  height: 4.2rem !important;
+}
+
+.secound-navbar {
+  height: 2.5rem !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 1rem;
+}
+
+.movie-name-link {
+  color: #ffffff;
+  font-weight: bold;
+  width: auto;
+  margin-left: 1.2rem;
+}
+
+element.style {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.main-header-appbar {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 999;
+}
+
+.makeStyles-root-1 {
+  height: auto !important;
+}
+
+.MuiImageListItem-root {
+  height: auto !important;
+  width: 20% !important;
+
+}
+
+.MuiImageListItem-item {
+  cursor: pointer;
+}
+
+.MuiImageListItem-item:hover {
+  box-shadow: 0 8px 20px 0 rgb(252, 252, 252);
+}
+
+.makeStyles-backgroundColor-13{
+  padding-bottom: 2rem !important;
+}
+
+.MuiImageList-root::-webkit-scrollbar {
+  display: none !important;
+  /* scroll-behavior: smooth; */
+}
+.header_toolbar{
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+@media (max-width: 966px) {
+  .hide_box{
+    display: none !important;
+  }
+  
+}
+
+@media (max-width: 830px) {
+  .hide_box{
+    display: none !important;
+  }
+  .sign_hide{
+    display: none !important;
+  } 
+}
+@media (max-width: 745px) {
+  .hide_box{
+    display: none !important;
+  }
+  .sign_hide{
+    display: none !important;
+  }
+  .search_barhide{
+    display: none !important;
+  }  
+}

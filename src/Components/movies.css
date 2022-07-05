@@ -1,0 +1,29 @@
+.movie-result{
+    display: grid ;
+    grid-template-columns: auto auto auto auto auto;
+    width: 100%;
+    background: #000 !important;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+h1{
+    color: #000;
+    text-align: center;
+}
+.card {
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    max-width: 200px;
+    margin-top: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 20px 0 rgb(252, 252, 252);
+  }
+  b{
+    color: white;
+  }
